@@ -1,0 +1,24 @@
+{
+    "packs": [
+        {
+            "can_be_redownloaded": false,
+            "name": "System Dynamic Lights Addon V1.2 §9Behavior Pack",
+            "uuid": "4af7083a-0b1e-423b-8ba9-8bd56397eafa",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "More Variants Village & Pillage BP",
+            "uuid": "408c82ef-7113-47c5-b875-a8c7f5e2664a",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

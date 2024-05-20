@@ -1,0 +1,24 @@
+{
+    "packs": [
+        {
+            "can_be_redownloaded": false,
+            "name": "System Dynamic Lights Addon V1.2 §9Resources Pack",
+            "uuid": "9662b34a-9a6c-47dc-b1ce-7541c8bbda91",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "More Variants Village & Pillage RP",
+            "uuid": "21eeaa23-5f42-4a14-a293-3752ce248c72",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

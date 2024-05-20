@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"TayiNdz1011"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.17"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "More Variants Village & Pillage BP",
+		"description": "Este complemento agrega nuevos atuendos para los biomas que no tienen uno, ademas ahora los pillagers cambian de atuendo dependiendo del bioma donde aparezcan.",
+		"min_engine_version": [
+			1,
+			20,
+			50
+		],
+		"uuid": "408c82ef-7113-47c5-b875-a8c7f5e2664a",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3928486d-be8b-496a-a6bf-aa4570749b82",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "21eeaa23-5f42-4a14-a293-3752ce248c72",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.vindicator": {
+			"arrays": {
+				"textures": {
+					"Array.biomes": [
+						"Texture.plains",
+						"Texture.desert",
+						"Texture.jungle",
+						"Texture.savanna",
+						"Texture.snow",
+						"Texture.swamp",
+						"Texture.taiga",
+						"Texture.cherry",
+						"Texture.beach",
+						"Texture.birch",
+						"Texture.mangroove_swamp",
+						"Texture.mesa"
+					]
+				}
+			},
+			"geometry": "geometry.default",
+			"part_visibility": [
+				{
+					"rightArm": "query.is_angry || query.is_celebrating"
+				},
+				{
+					"leftArm": "query.is_angry || query.is_celebrating"
+				},
+				{
+					"rightItem": "query.is_angry"
+				},
+				{
+					"arms": "!(query.is_angry || query.is_celebrating)"
+				}
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.biomes[query.mark_variant]"
+			]
+		},
+		"controller.render.vindicator_base": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.default"
+			],
+			"part_visibility": [
+				{
+					"rightArm": "query.is_angry || query.is_celebrating"
+				},
+				{
+					"leftArm": "query.is_angry || query.is_celebrating"
+				},
+				{
+					"rightItem": "query.is_angry"
+				},
+				{
+					"arms": "!(query.is_angry || query.is_celebrating)"
+				}
+			]
+		}
+	}
+}
